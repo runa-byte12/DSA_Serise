@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    //find smallest/largest index
     int arr[6] = {5, 9, -1, 7, 3, 12};
 
     int small = arr[0];
