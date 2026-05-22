@@ -6,7 +6,8 @@ int main(){
     int size=7;
     int largest=INT_MIN;
     int smallest=INT_MAX;
-    for(int i=0;i<size;i++){
+    
+        for(int i=0;i<size;i++){
        /* if(num[i]<smallest){
             smallest=num[i];
         }*/
@@ -14,9 +15,10 @@ int main(){
     largest=max(num[i],largest);
     smallest=min(num[i],smallest);
 
+    
     }
     cout<<"the smallest number="<<smallest<<endl;
-
+    
     cout<<"the largest number="<<largest;
     return 0;
 }
